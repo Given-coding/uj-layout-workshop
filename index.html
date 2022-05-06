@@ -18,17 +18,34 @@
             margin-right: 2em;
             text-align: center;
         }
+        body{
+            background-color: darkslategray;
+            
+        }
+        
+    @media (main-width: 768px) {
         .body{
-        background-color: blueviolet;
-    }
+                background-color: orange; 
+            }
+        }
+    .box{
+            background-color: aqua;
+            border: 5px solid red;
+            width: 10em;
+            padding: 1em;
+            margin: 1em;
+            font-style: oblique;
+            font-size: medium;
+            text-align: center;
+        }
     </style>
 </head>
 <body>
     <h1>My layout page</h1>
-    <div>
+    <div class="box">
         <a href="responsive.html">My responsive page</a>
     </div>
-    <div>
+    <div class="box">
         <a href="cupcake.html">My cupcakes</a>
     </div>
 </body>
